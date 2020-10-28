@@ -1,0 +1,850 @@
+logging.basicConfig(filename='log.log',
+                            filemode='a',
+                            format='%(asctime)s,%(msecs)d %(name)s %(levelname)s %(message)s',
+                            datefmt='%H:%M:%S',
+                            level=logging.INFO)19:23:21,26 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+19:23:21,26 aiogram.dispatcher.dispatcher INFO Start polling.
+19:30:31,658 aiogram.dispatcher.dispatcher INFO Stop polling...
+19:30:31,658 aiogram WARNING Goodbye!
+19:13:17,506 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+19:13:17,506 aiogram.dispatcher.dispatcher INFO Start polling.
+19:15:13,663 aiogram.dispatcher.dispatcher INFO Stop polling...
+19:15:13,664 aiogram WARNING Goodbye!
+19:15:15,990 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+19:15:15,991 aiogram.dispatcher.dispatcher INFO Start polling.
+19:15:53,820 aiogram.dispatcher.dispatcher INFO Stop polling...
+19:15:53,821 aiogram WARNING Goodbye!
+19:15:56,85 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+19:15:56,85 aiogram.dispatcher.dispatcher INFO Start polling.
+19:17:58,771 aiogram.dispatcher.dispatcher INFO Stop polling...
+19:17:58,772 aiogram WARNING Goodbye!
+19:18:05,849 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+19:18:05,850 aiogram.dispatcher.dispatcher INFO Start polling.
+19:20:14,961 aiogram.dispatcher.dispatcher INFO Stop polling...
+19:20:14,962 aiogram WARNING Goodbye!
+19:20:17,345 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+19:20:17,351 aiogram.dispatcher.dispatcher INFO Start polling.
+19:23:18,776 aiogram.dispatcher.dispatcher INFO Stop polling...
+19:23:18,776 aiogram WARNING Goodbye!
+19:23:21,41 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+19:23:21,41 aiogram.dispatcher.dispatcher INFO Start polling.
+19:24:45,854 aiogram.dispatcher.dispatcher INFO Stop polling...
+19:24:45,855 aiogram WARNING Goodbye!
+19:24:48,6 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+19:24:48,6 aiogram.dispatcher.dispatcher INFO Start polling.
+19:25:22,142 aiogram.dispatcher.dispatcher INFO Stop polling...
+19:25:22,142 aiogram WARNING Goodbye!
+19:25:33,260 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+19:25:33,260 aiogram.dispatcher.dispatcher INFO Start polling.
+19:27:18,55 aiogram.dispatcher.dispatcher INFO Stop polling...
+19:27:18,56 aiogram WARNING Goodbye!
+19:27:20,416 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+19:27:20,416 aiogram.dispatcher.dispatcher INFO Start polling.
+19:29:03,867 aiogram.dispatcher.dispatcher INFO Stop polling...
+19:29:03,867 aiogram WARNING Goodbye!
+19:29:06,141 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+19:29:06,141 aiogram.dispatcher.dispatcher INFO Start polling.
+19:30:34,659 aiogram.dispatcher.dispatcher INFO Stop polling...
+19:30:34,660 aiogram WARNING Goodbye!
+19:30:44,73 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+19:30:44,73 aiogram.dispatcher.dispatcher INFO Start polling.
+19:30:46,361 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py:324> exception=TypeError('can only concatenate str (not "int") to str')>
+Traceback (most recent call last):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 332, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 188, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 208, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 136, in stat_inline1
+    await message.answer('количество использованных инлайнов: ' + stat_inline['stat'])
+TypeError: can only concatenate str (not "int") to str
+19:30:51,717 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py:324> exception=TypeError('can only concatenate str (not "int") to str')>
+Traceback (most recent call last):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 332, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 188, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 208, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 136, in stat_inline1
+    await message.answer('количество использованных инлайнов: ' + stat_inline['stat'])
+TypeError: can only concatenate str (not "int") to str
+19:31:01,139 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-21' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py:324> exception=TypeError('can only concatenate str (not "int") to str')>
+Traceback (most recent call last):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 332, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 188, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 208, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 136, in stat_inline1
+    await message.answer('количество использованных инлайнов: ' + stat_inline['stat'])
+TypeError: can only concatenate str (not "int") to str
+19:31:14,548 aiogram.dispatcher.dispatcher INFO Stop polling...
+19:31:14,549 aiogram WARNING Goodbye!
+19:31:16,768 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+19:31:16,769 aiogram.dispatcher.dispatcher INFO Start polling.
+19:35:08,662 aiogram.dispatcher.dispatcher INFO Stop polling...
+19:35:08,662 aiogram WARNING Goodbye!
+19:35:10,892 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+19:35:10,893 aiogram.dispatcher.dispatcher INFO Start polling.
+19:35:14,425 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py:324> exception=TypeError("'int' object is not subscriptable")>
+Traceback (most recent call last):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 332, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 188, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 208, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 136, in stat_inline1
+    await message.answer(stat_inline['stat'])
+TypeError: 'int' object is not subscriptable
+19:35:20,180 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py:324> exception=TypeError("'int' object is not subscriptable")>
+Traceback (most recent call last):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 332, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 188, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 208, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 136, in stat_inline1
+    await message.answer(stat_inline['stat'])
+TypeError: 'int' object is not subscriptable
+19:39:15,265 aiogram.dispatcher.dispatcher INFO Stop polling...
+19:39:15,266 aiogram WARNING Goodbye!
+19:39:17,636 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+19:39:17,637 aiogram.dispatcher.dispatcher INFO Start polling.
+19:39:20,921 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py:324> exception=TypeError("'int' object is not subscriptable")>
+Traceback (most recent call last):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 332, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 188, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 221, in process_update
+    return await self.inline_query_handlers.notify(update.inline_query)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 66, in inline_echo
+    stat_inline['stat'] += 1
+TypeError: 'int' object is not subscriptable
+19:39:21,790 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py:324> exception=TypeError("'int' object is not subscriptable")>
+Traceback (most recent call last):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 332, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 188, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 221, in process_update
+    return await self.inline_query_handlers.notify(update.inline_query)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 66, in inline_echo
+    stat_inline['stat'] += 1
+TypeError: 'int' object is not subscriptable
+19:40:15,185 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-13' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py:324> exception=TypeError("'int' object is not subscriptable")>
+Traceback (most recent call last):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 332, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 188, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 221, in process_update
+    return await self.inline_query_handlers.notify(update.inline_query)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 66, in inline_echo
+    try:
+TypeError: 'int' object is not subscriptable
+19:40:15,340 aiogram.dispatcher.dispatcher INFO Stop polling...
+19:40:15,340 aiogram WARNING Goodbye!
+19:40:17,571 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+19:40:17,571 aiogram.dispatcher.dispatcher INFO Start polling.
+19:40:19,913 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py:324> exception=TypeError("'int' object is not subscriptable")>
+Traceback (most recent call last):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 332, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 188, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 221, in process_update
+    return await self.inline_query_handlers.notify(update.inline_query)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 67, in inline_echo
+    stat_inline['stat'] += 1
+TypeError: 'int' object is not subscriptable
+19:40:45,819 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-11' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py:324> exception=APICallError('{"cod":"400","message":"Nothing to geocode"}')>
+Traceback (most recent call last):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 332, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 188, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 221, in process_update
+    return await self.inline_query_handlers.notify(update.inline_query)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 46, in inline_echo
+    observation = owm.weather_at_place(place)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pyowm\weatherapi25\owm25.py", line 231, in weather_at_place
+    _, json_data = self._wapi.cacheable_get_json(uri, params=params)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pyowm\commons\http_client.py", line 87, in cacheable_get_json
+    status_code, data = self.get_json(uri, params=params, headers=headers)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pyowm\commons\http_client.py", line 32, in get_json
+    HttpClient.check_status_code(resp.status_code, resp.text)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pyowm\commons\http_client.py", line 151, in check_status_code
+    raise api_call_error.APICallError(payload)
+pyowm.exceptions.api_call_error.APICallError: Exception in calling OWM Weather API.
+Reason: {"cod":"400","message":"Nothing to geocode"}
+Caused by: None
+19:40:46,602 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-14' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py:324> exception=TypeError("'int' object is not subscriptable")>
+Traceback (most recent call last):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 332, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 188, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 221, in process_update
+    return await self.inline_query_handlers.notify(update.inline_query)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 67, in inline_echo
+    stat_inline['stat'] += 1
+TypeError: 'int' object is not subscriptable
+19:42:54,47 aiogram.dispatcher.dispatcher INFO Stop polling...
+19:42:54,48 aiogram WARNING Goodbye!
+19:42:59,206 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+19:42:59,206 aiogram.dispatcher.dispatcher INFO Start polling.
+19:43:11,618 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py:324> exception=TypeError("'int' object is not subscriptable")>
+Traceback (most recent call last):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 332, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 188, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 221, in process_update
+    return await self.inline_query_handlers.notify(update.inline_query)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 73, in inline_echo
+    stat_inline['stat'] += 1
+TypeError: 'int' object is not subscriptable
+19:43:12,388 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py:324> exception=TypeError("'int' object is not subscriptable")>
+Traceback (most recent call last):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 332, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 188, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 221, in process_update
+    return await self.inline_query_handlers.notify(update.inline_query)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 73, in inline_echo
+    stat_inline['stat'] += 1
+TypeError: 'int' object is not subscriptable
+19:44:32,932 aiogram.dispatcher.dispatcher INFO Stop polling...
+19:44:32,933 aiogram WARNING Goodbye!
+19:44:35,315 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+19:44:35,316 aiogram.dispatcher.dispatcher INFO Start polling.
+19:45:58,26 aiogram.dispatcher.dispatcher INFO Stop polling...
+19:45:58,27 aiogram WARNING Goodbye!
+19:46:00,256 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+19:46:00,256 aiogram.dispatcher.dispatcher INFO Start polling.
+19:46:05,123 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py:324> exception=TypeError("'int' object is not subscriptable")>
+Traceback (most recent call last):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 332, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 188, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 221, in process_update
+    return await self.inline_query_handlers.notify(update.inline_query)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 73, in inline_echo
+    stat_inline['stat'] += 1
+TypeError: 'int' object is not subscriptable
+19:46:56,612 aiogram.dispatcher.dispatcher INFO Stop polling...
+19:46:56,613 aiogram WARNING Goodbye!
+19:46:58,783 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+19:46:58,783 aiogram.dispatcher.dispatcher INFO Start polling.
+19:49:07,532 aiogram.dispatcher.dispatcher INFO Stop polling...
+19:49:07,533 aiogram WARNING Goodbye!
+19:49:10,185 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+19:49:10,185 aiogram.dispatcher.dispatcher INFO Start polling.
+19:49:15,115 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py:324> exception=TypeError("'int' object is not subscriptable")>
+Traceback (most recent call last):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 332, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 188, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 221, in process_update
+    return await self.inline_query_handlers.notify(update.inline_query)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 72, in inline_echo
+    stat_inline['stat'] += 1
+TypeError: 'int' object is not subscriptable
+19:49:16,70 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py:324> exception=TypeError("'int' object is not subscriptable")>
+Traceback (most recent call last):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 332, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 188, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 221, in process_update
+    return await self.inline_query_handlers.notify(update.inline_query)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 72, in inline_echo
+    stat_inline['stat'] += 1
+TypeError: 'int' object is not subscriptable
+19:50:53,426 aiogram.dispatcher.dispatcher INFO Stop polling...
+19:50:53,426 aiogram WARNING Goodbye!
+19:50:55,660 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+19:50:55,660 aiogram.dispatcher.dispatcher INFO Start polling.
+19:50:58,195 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py:324> exception=TypeError("'int' object is not subscriptable")>
+Traceback (most recent call last):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 332, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 188, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 221, in process_update
+    return await self.inline_query_handlers.notify(update.inline_query)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 73, in inline_echo
+    save()
+  File "bot.py", line 28, in save
+    pickle.dump(stat_inline['stat'],bd)
+TypeError: 'int' object is not subscriptable
+19:51:02,903 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py:324> exception=TypeError("'int' object is not subscriptable")>
+Traceback (most recent call last):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 332, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 188, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 221, in process_update
+    return await self.inline_query_handlers.notify(update.inline_query)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 73, in inline_echo
+    save()
+  File "bot.py", line 28, in save
+    pickle.dump(stat_inline['stat'],bd)
+TypeError: 'int' object is not subscriptable
+19:51:50,274 aiogram.dispatcher.dispatcher INFO Stop polling...
+19:51:50,275 aiogram WARNING Goodbye!
+19:57:25,191 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+19:57:25,191 aiogram.dispatcher.dispatcher INFO Start polling.
+19:57:33,729 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py:324> exception=TypeError("'int' object is not subscriptable")>
+Traceback (most recent call last):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 332, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 188, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 221, in process_update
+    return await self.inline_query_handlers.notify(update.inline_query)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 76, in inline_echo
+    save()
+  File "bot.py", line 24, in save
+    pickle.dump(stat_inline['stat'],bd)
+TypeError: 'int' object is not subscriptable
+19:58:18,390 aiogram.dispatcher.dispatcher INFO Stop polling...
+19:58:18,391 aiogram WARNING Goodbye!
+19:58:20,538 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+19:58:20,538 aiogram.dispatcher.dispatcher INFO Start polling.
+19:58:49,501 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-16' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py:324> exception=TypeError("'int' object is not subscriptable")>
+Traceback (most recent call last):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 332, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 188, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 208, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 146, in stat_inline1
+    await message.answer(stat_inline['stat'])
+TypeError: 'int' object is not subscriptable
+20:00:57,89 aiogram.dispatcher.dispatcher INFO Stop polling...
+20:00:57,90 aiogram WARNING Goodbye!
+20:00:59,546 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+20:00:59,546 aiogram.dispatcher.dispatcher INFO Start polling.
+20:02:14,689 aiogram.dispatcher.dispatcher INFO Stop polling...
+20:02:14,690 aiogram WARNING Goodbye!
+20:02:41,623 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+20:02:41,623 aiogram.dispatcher.dispatcher INFO Start polling.
+20:03:07,102 aiogram.dispatcher.dispatcher INFO Stop polling...
+20:03:07,102 aiogram WARNING Goodbye!
+20:03:09,547 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+20:03:09,547 aiogram.dispatcher.dispatcher INFO Start polling.
+20:03:43,873 aiogram.dispatcher.dispatcher INFO Stop polling...
+20:03:43,873 aiogram WARNING Goodbye!
+20:03:46,40 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+20:03:46,40 aiogram.dispatcher.dispatcher INFO Start polling.
+20:07:03,618 aiogram.dispatcher.dispatcher INFO Stop polling...
+20:07:03,619 aiogram WARNING Goodbye!
+20:07:08,642 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+20:07:08,642 aiogram.dispatcher.dispatcher INFO Start polling.
+20:07:22,187 aiogram.dispatcher.dispatcher INFO Stop polling...
+20:07:22,188 aiogram WARNING Goodbye!
+20:07:26,356 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+20:07:26,356 aiogram.dispatcher.dispatcher INFO Start polling.
+20:13:56,143 aiogram.dispatcher.dispatcher INFO Stop polling...
+20:13:56,144 aiogram WARNING Goodbye!
+20:15:09,628 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+20:15:09,629 aiogram.dispatcher.dispatcher INFO Start polling.
+20:15:19,0 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py:324> exception=TypeError('can only concatenate str (not "int") to str')>
+Traceback (most recent call last):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 332, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 188, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 208, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 146, in stat_inline1
+    await message.answer('количество инлайнов:' + stat_inline['stat'] + '\nКоличество /w: ' + stat_inline['w_stat'] )
+TypeError: can only concatenate str (not "int") to str
+20:16:36,982 aiogram.dispatcher.dispatcher INFO Stop polling...
+20:16:36,983 aiogram WARNING Goodbye!
+20:16:39,333 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+20:16:39,333 aiogram.dispatcher.dispatcher INFO Start polling.
+20:16:42,771 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py:324> exception=TypeError('can only concatenate str (not "int") to str')>
+Traceback (most recent call last):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 332, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 188, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 208, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 145, in stat_inline1
+    await message.answer('количество инлайнов:' + stat_inline['stat'] + '\nКоличество /w: ' + stat_inline['w_stat'] )
+TypeError: can only concatenate str (not "int") to str
+20:17:16,282 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-18' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py:324> exception=TypeError('can only concatenate str (not "int") to str')>
+Traceback (most recent call last):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 332, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 188, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 208, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 145, in stat_inline1
+    await message.answer('количество инлайнов:' + stat_inline['stat'] + '\nКоличество /w: ' + stat_inline['w_stat'] )
+TypeError: can only concatenate str (not "int") to str
+20:17:31,639 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-29' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py:324> exception=TypeError('can only concatenate str (not "int") to str')>
+Traceback (most recent call last):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 332, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 188, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 208, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 145, in stat_inline1
+    await message.answer('количество инлайнов:' + stat_inline['stat'] + '\nКоличество /w: ' + stat_inline['w_stat'] )
+TypeError: can only concatenate str (not "int") to str
+20:18:46,747 aiogram.dispatcher.dispatcher INFO Stop polling...
+20:18:46,748 aiogram WARNING Goodbye!
+20:18:48,998 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+20:18:48,999 aiogram.dispatcher.dispatcher INFO Start polling.
+20:18:55,196 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py:324> exception=TypeError('can only concatenate str (not "int") to str')>
+Traceback (most recent call last):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 332, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 188, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 208, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 145, in stat_inline1
+    await message.answer('количество инлайнов:' + stat_inline['stat'] + '\nКоличество /w: ' + stat_inline['w_stat'])
+TypeError: can only concatenate str (not "int") to str
+20:19:09,774 aiogram.dispatcher.dispatcher INFO Stop polling...
+20:19:09,775 aiogram WARNING Goodbye!
+20:19:11,933 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+20:19:11,933 aiogram.dispatcher.dispatcher INFO Start polling.
+20:22:51,410 aiogram.dispatcher.dispatcher INFO Stop polling...
+20:22:51,410 aiogram WARNING Goodbye!
+20:23:26,271 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+20:23:26,271 aiogram.dispatcher.dispatcher INFO Start polling.
+20:23:32,644 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py:324> exception=KeyError('users')>
+Traceback (most recent call last):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 332, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 188, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 208, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 83, in start_message
+    if id not in stat_inline['users']:
+KeyError: 'users'
+20:24:04,6 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-11' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py:324> exception=KeyError('users')>
+Traceback (most recent call last):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 332, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 188, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 208, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 83, in start_message
+    if id not in stat_inline['users']:
+KeyError: 'users'
+20:24:07,217 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-14' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py:324> exception=KeyError('users')>
+Traceback (most recent call last):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 332, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 188, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 208, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 141, in stat_inline1
+    await message.answer('пользователей: ' + str(stat_inline['users']) + 'количество инлайнов:' + str(stat_inline['stat']) + '\nКоличество /w: ' + str(stat_inline['w_stat']))
+KeyError: 'users'
+20:25:11,397 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-20' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py:324> exception=KeyError('users')>
+Traceback (most recent call last):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 332, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 188, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 208, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 83, in start_message
+    if id not in stat_inline['users']:
+KeyError: 'users'
+20:25:26,750 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-30' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py:324> exception=KeyError('users')>
+Traceback (most recent call last):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 332, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 188, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 208, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 141, in stat_inline1
+    await message.answer('пользователей: ' + str(stat_inline['users']) + 'количество инлайнов:' + str(stat_inline['stat']) + '\nКоличество /w: ' + str(stat_inline['w_stat']))
+KeyError: 'users'
+20:25:32,842 aiogram.dispatcher.dispatcher INFO Stop polling...
+20:25:32,843 aiogram WARNING Goodbye!
+20:25:34,953 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+20:25:34,953 aiogram.dispatcher.dispatcher INFO Start polling.
+20:25:37,604 aiogram.dispatcher.dispatcher INFO Stop polling...
+20:25:37,604 aiogram WARNING Goodbye!
+20:25:44,292 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+20:25:44,293 aiogram.dispatcher.dispatcher INFO Start polling.
+20:27:29,786 aiogram.dispatcher.dispatcher INFO Stop polling...
+20:27:29,786 aiogram WARNING Goodbye!
+20:27:31,884 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+20:27:31,885 aiogram.dispatcher.dispatcher INFO Start polling.
+20:27:46,218 aiogram.dispatcher.dispatcher INFO Stop polling...
+20:27:46,219 aiogram WARNING Goodbye!
+20:27:48,508 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+20:27:48,508 aiogram.dispatcher.dispatcher INFO Start polling.
+20:28:07,56 aiogram.dispatcher.dispatcher INFO Stop polling...
+20:28:07,57 aiogram WARNING Goodbye!
+20:28:09,155 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+20:28:09,155 aiogram.dispatcher.dispatcher INFO Start polling.
+20:28:11,874 aiogram.dispatcher.dispatcher INFO Stop polling...
+20:28:11,874 aiogram WARNING Goodbye!
+20:28:17,321 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+20:28:17,321 aiogram.dispatcher.dispatcher INFO Start polling.
+20:28:24,148 aiogram.dispatcher.dispatcher INFO Stop polling...
+20:28:24,149 aiogram WARNING Goodbye!
+20:28:28,639 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+20:28:28,639 aiogram.dispatcher.dispatcher INFO Start polling.
+20:30:55,166 aiogram.dispatcher.dispatcher INFO Stop polling...
+20:30:55,166 aiogram WARNING Goodbye!
+20:30:57,367 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+20:30:57,368 aiogram.dispatcher.dispatcher INFO Start polling.
+20:31:28,939 aiogram.dispatcher.dispatcher INFO Stop polling...
+20:31:28,940 aiogram WARNING Goodbye!
+20:31:31,54 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+20:31:31,55 aiogram.dispatcher.dispatcher INFO Start polling.
+20:31:40,370 aiogram.dispatcher.dispatcher INFO Stop polling...
+20:31:40,371 aiogram WARNING Goodbye!
+20:31:42,617 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+20:31:42,617 aiogram.dispatcher.dispatcher INFO Start polling.
+20:32:19,267 aiogram.dispatcher.dispatcher INFO Stop polling...
+20:32:19,268 aiogram WARNING Goodbye!
+20:32:21,401 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+20:32:21,401 aiogram.dispatcher.dispatcher INFO Start polling.
+20:32:30,704 aiogram.dispatcher.dispatcher INFO Stop polling...
+20:32:30,704 aiogram WARNING Goodbye!
+20:32:35,160 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+20:32:35,161 aiogram.dispatcher.dispatcher INFO Start polling.
+20:32:45,190 aiogram.dispatcher.dispatcher INFO Stop polling...
+20:32:45,190 aiogram WARNING Goodbye!
+20:32:47,318 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+20:32:47,318 aiogram.dispatcher.dispatcher INFO Start polling.
+20:33:29,584 aiogram.dispatcher.dispatcher INFO Stop polling...
+20:33:29,585 aiogram.dispatcher.dispatcher WARNING Polling is stopped.
+20:33:29,585 aiogram WARNING Goodbye!
+20:33:31,709 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+20:33:31,709 aiogram.dispatcher.dispatcher INFO Start polling.
+20:35:58,399 aiogram.dispatcher.dispatcher INFO Stop polling...
+20:35:58,399 aiogram WARNING Goodbye!
+20:37:59,353 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+20:37:59,354 aiogram.dispatcher.dispatcher INFO Start polling.
+20:37:59,366 aiogram WARNING Goodbye!
+20:38:34,113 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+20:38:34,113 aiogram.dispatcher.dispatcher INFO Start polling.
+20:38:34,193 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py:324> exception=TypeError("unsupported operand type(s) for +: 'int' and 'str'")>
+Traceback (most recent call last):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 332, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 188, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 208, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 143, in stat_inline1
+    await message.answer('пользователей: ' + str(len(stat_inline['users'])) + '\nколичество инлайнов:' + str(stat_inline['stat']) + '\nКоличество /w: ' + str(stat_inline['w_stat'] + 'количество /sunrise: ' + str(stat_inline['sunrise_stat'])))
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+20:38:35,719 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py:324> exception=TypeError("unsupported operand type(s) for +: 'int' and 'str'")>
+Traceback (most recent call last):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 332, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 188, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 208, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 143, in stat_inline1
+    await message.answer('пользователей: ' + str(len(stat_inline['users'])) + '\nколичество инлайнов:' + str(stat_inline['stat']) + '\nКоличество /w: ' + str(stat_inline['w_stat'] + 'количество /sunrise: ' + str(stat_inline['sunrise_stat'])))
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+20:38:53,847 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-18' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py:324> exception=TypeError("unsupported operand type(s) for +: 'int' and 'str'")>
+Traceback (most recent call last):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 332, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 188, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 208, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 143, in stat_inline1
+    await message.answer('пользователей: ' + str(len(stat_inline['users'])) + '\nколичество инлайнов:' + str(stat_inline['stat']) + '\nКоличество /w: ' + str(stat_inline['w_stat'] + 'количество /sunrise: ' + str(stat_inline['sunrise_stat'])))
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+20:38:55,521 aiogram.dispatcher.dispatcher INFO Stop polling...
+20:38:55,521 aiogram WARNING Goodbye!
+20:39:06,23 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+20:39:06,24 aiogram.dispatcher.dispatcher INFO Start polling.
+20:39:10,830 aiogram.dispatcher.dispatcher INFO Stop polling...
+20:39:10,831 aiogram WARNING Goodbye!
+20:39:13,318 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+20:39:13,319 aiogram.dispatcher.dispatcher INFO Start polling.
+20:39:15,413 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py:324> exception=TypeError("unsupported operand type(s) for +: 'int' and 'str'")>
+Traceback (most recent call last):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 332, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 188, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 208, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 143, in stat_inline1
+    await message.answer('пользователей: ' + str(len(stat_inline['users'])) + '\nколичество инлайнов:' + str(stat_inline['stat']) + '\nКоличество /w: ' + str(stat_inline['w_stat'] + 'количество /sunrise: ' + str(stat_inline['sunrise_stat'])))
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+20:40:15,389 aiogram.dispatcher.dispatcher INFO Stop polling...
+20:40:15,389 aiogram WARNING Goodbye!
+20:54:41,907 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+20:54:41,908 aiogram.dispatcher.dispatcher INFO Start polling.
+20:54:44,369 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py:324> exception=TypeError("unsupported operand type(s) for +: 'int' and 'str'")>
+Traceback (most recent call last):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 332, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 188, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 208, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 145, in stat_inline1
+    await message.answer('пользователей: ' + str(len(stat_inline['users'])) + '\nколичество инлайнов:' + str(stat_inline['stat']) + '\nКоличество /w: ' + str(stat_inline['w_stat'] + '\nколичество /sunrise: ' + str(stat_inline['sunrise_stat'])))
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+20:59:18,160 asyncio ERROR Task exception was never retrieved
+future: <Task finished name='Task-41' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py:324> exception=TypeError("unsupported operand type(s) for +: 'int' and 'str'")>
+Traceback (most recent call last):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 332, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 188, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 208, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\lesha\AppData\Local\Programs\Python\Python38-32\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "bot.py", line 145, in stat_inline1
+    await message.answer('пользователей: ' + str(len(stat_inline['users'])) + '\nколичество инлайнов:' + str(stat_inline['stat']) + '\nКоличество /w: ' + str(stat_inline['w_stat'] + '\nколичество /sunrise: ' + str(stat_inline['sunrise_stat'])))
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+21:00:00,246 aiogram.dispatcher.dispatcher INFO Stop polling...
+21:00:00,247 aiogram WARNING Goodbye!
+21:00:03,526 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+21:00:03,526 aiogram.dispatcher.dispatcher INFO Start polling.
+21:00:16,473 aiogram.dispatcher.dispatcher INFO Stop polling...
+21:00:16,474 aiogram WARNING Goodbye!
+21:00:18,711 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+21:00:18,712 aiogram.dispatcher.dispatcher INFO Start polling.
+21:00:32,757 aiogram.dispatcher.dispatcher INFO Stop polling...
+21:00:32,758 aiogram WARNING Goodbye!
+21:00:35,60 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+21:00:35,61 aiogram.dispatcher.dispatcher INFO Start polling.
+21:02:54,895 aiogram.dispatcher.dispatcher INFO Stop polling...
+21:02:54,896 aiogram WARNING Goodbye!
+21:02:57,82 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+21:02:57,82 aiogram.dispatcher.dispatcher INFO Start polling.
+21:03:25,473 aiogram.dispatcher.dispatcher INFO Stop polling...
+21:03:25,474 aiogram WARNING Goodbye!
+21:03:27,889 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+21:03:27,890 aiogram.dispatcher.dispatcher INFO Start polling.
+21:04:12,853 aiogram.dispatcher.dispatcher INFO Stop polling...
+21:04:12,854 aiogram WARNING Goodbye!
+21:04:15,47 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+21:04:15,48 aiogram.dispatcher.dispatcher INFO Start polling.
+21:05:58,996 aiogram.dispatcher.dispatcher INFO Stop polling...
+21:05:58,996 aiogram WARNING Goodbye!
+21:06:01,306 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+21:06:01,306 aiogram.dispatcher.dispatcher INFO Start polling.
+21:06:51,351 aiogram.dispatcher.dispatcher INFO Stop polling...
+21:06:51,351 aiogram WARNING Goodbye!
+21:06:53,401 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+21:06:53,401 aiogram.dispatcher.dispatcher INFO Start polling.
+21:07:52,464 aiogram.dispatcher.dispatcher INFO Stop polling...
+21:07:52,464 aiogram WARNING Goodbye!
+21:07:54,730 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+21:07:54,731 aiogram.dispatcher.dispatcher INFO Start polling.
+21:08:08,318 aiogram.dispatcher.dispatcher INFO Stop polling...
+21:08:08,319 aiogram WARNING Goodbye!
+21:08:11,522 aiogram INFO Bot: PinkyPieee [@Pinkybrunobot]
+21:08:11,522 aiogram.dispatcher.dispatcher INFO Start polling.
