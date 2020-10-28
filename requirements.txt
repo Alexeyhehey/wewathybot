@@ -10,7 +10,6 @@ pyowm
 pytz
 pandas
 datetime
-Pillow
 pillow==7.1.2 
 Pygments==2.2.0
 pyparsing==2.2.0
